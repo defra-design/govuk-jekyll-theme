@@ -6,3 +6,42 @@ $baseurl: "{{ site.baseurl }}";
 
 @import "govuk-jekyll";
 
+
+h2 {
+    color: #0b0c0c;
+    font-family: GDS Transport, arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.0416666667;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #0b0c0c;
+    font-family: GDS Transport, arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.1111111111;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h4 {
+    color: #0b0c0c;
+    font-family: GDS Transport, arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
