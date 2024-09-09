@@ -90,3 +90,9 @@ li {
     margin-bottom: 5px;
 
 }
+
+#layout {
+  display:grid;
+  grid-template-columns:1fr 280px;
+  gap:32px;
+}
