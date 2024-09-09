@@ -8,41 +8,74 @@ $baseurl: "{{ site.baseurl }}";
 
 /* defra test */
 
-h2 {
-    color: #0b0c0c;
-    font-family: GDS Transport, arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+h1 {
+    font-family: "nta", Arial, sans-serif;
     font-weight: 700;
-    font-size: 1.5rem;
-    line-height: 1.0416666667;
+    text-transform: none;
+    font-size: 32px;
+    line-height: 1.09375;
     display: block;
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin-top: 0.46875em;
+    margin-bottom: 0.9375em;
+}
+
+@media (min-width: 641px) {
+    h1 {
+        font-size: 48px;
+        line-height: 1.04167;
+    }
+}
+
+h2 {
+    font-family: "nta", Arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 24px;
+    line-height: 1.04167;
+    display: block;
+    margin-top: 1.04167em;
+    margin-bottom: 0.41667em;
+}
+
+@media (min-width: 641px) {
+    h2 {
+        font-size: 36px;
+        line-height: 1.11111;
+    }
 }
 
 h3 {
-    color: #0b0c0c;
-    font-family: GDS Transport, arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: "nta", Arial, sans-serif;
     font-weight: 700;
-    font-size: 1.125rem;
-    line-height: 1.1111111111;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 1.2;
     display: block;
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
+}
+
+@media (min-width: 641px) {
+    h3 {
+        font-size: 24px;
+        line-height: 1.25;
+    }
 }
 
 h4 {
-    color: #0b0c0c;
-    font-family: GDS Transport, arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: "nta", Arial, sans-serif;
     font-weight: 700;
-    font-size: 1rem;
+    text-transform: none;
+    font-size: 16px;
     line-height: 1.25;
     display: block;
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin-top: 0.625em;
+    margin-bottom: 0.3125em;
+}
+
+@media (min-width: 641px) {
+    h4 {
+        font-size: 19px;
+        line-height: 1.31579;
+    }
 }
